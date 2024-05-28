@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Survey Form</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="wrapper">
+      <div class="title">
+        Survey Form
+      </div>
+      <div class="description">
+        Feel free to answere the questions below based on your experience and opinion.
+        If you are not convinient in answering a particular question please skip it by
+        answering "no". Every answere would be very appreciated. Thank you for your time.
+      </div>
+
+    <div class="form">
+
+        <div class="col1"> 
+          
+            <div class="inputfield">
+                <label>Your Name</label><br/>
+                <input type="text" class="input" placeholder="enter your name">
+            </div>  
+            <div class="inputfield">
+              <label>Your Email Address</label><br/>
+              <input type="text" class="input" placeholder="user@user.com">
+            </div>  
+            <div class="inputfield">
+                <label>Your phone number</label><br/>
+                <input type="password" class="input" placeholder="9999999999">
+            </div>  
+
+            <div class="inputfield">
+            <label>Where do you live?</label>
+            </div>
+            <div class="inputfield">           
+              <div class="custom_select">
+                <select>
+                  <option value="">Select</option>
+                  <option value="male">Bangalore</option>
+                  <option value="female">Delhi</option>
+                  <option value="male">Jharkhand</option>
+                  <option value="female">Kolkata</option>
+                  <option value="female">Others</option>
+                </select>
+              </div>
+            </div>    
+              
+              <fieldset>                            
+                <legend>Age</legend>                                
+                <div class="inputfield">               
+                    <input type="radio" id="gender" name="gender" value="male"/>15-20                  
+                    <input type="radio" id="gender" name="gender" value="female"/>21-30                  
+                    <input type="radio" id="gender" name="gender" value="male"/>31-40                  
+                    <input type="radio" id="gender" name="gender" value="female"/>41-50                 
+                    <input type="radio" id="gender" name="gender" value="male"/>Prefer not to say!
+                  </div>                                    
+              </fieldset>
+            
+          <div class="inputfield">
+          <label>How would you rate your proficiency in coding </label><br/>  
+          </div>
+            <input type="radio" id="gender" name="gender" value="male"/>Beginner  <br/>  
+            <input type="radio" id="gender" name="gender" value="female"/>Intermediate <br/>    
+            <input type="radio" id="gender" name="gender" value="others"/>Advance <br/>   
+        </div>
+
+        <div class="col2">
+          <div class="inputfield">
+            <label>Have you ever appeared in coding test? </label>
+          </div>   
+          <div class="inputfield">
+            <input type="radio" id="gender" name="gender" value="male"/>Yes  <br>  
+            <input type="radio" id="gender" name="gender" value="female"/>No <br/>
+          </div>    
+          <div class="inputfield">
+              <label>Discuss what drives your passion for coding and outline your aspirations in the field.</label><br/>
+              <textarea class="textarea"></textarea><br/>
+          </div> 
+          <div class="inputfield">
+                <label>What are some of the challenges you face while coding?</label><br/>
+                <textarea class="textarea"></textarea><br/>
+          </div> 
+          <div class="inputfield">
+                <label>Please list the data structures you have a strong understanding of:</label><br/>
+                <textarea class="textarea"></textarea>
+          </div>       
+          <div class="inputfield">
+                <input type="submit" value="Submit Form" class="btn">
+          </div>
+        </div>
+      </div>
+    </div>	
+	
+</body>
+</html>
