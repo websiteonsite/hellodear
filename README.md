@@ -1,2 +1,2 @@
-# Registration-form-D19
-Registartion form in HTML and CSS
+# Survey-form
+Survey form in HTML and CSS
